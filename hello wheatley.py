@@ -12,6 +12,7 @@ import time
 # displays a simple "I'm starting up" greetment phrase
 
 print ("I'm starting up.")
+print ("HAPPY BIRTHDAY DAD, I LOVE YOU!!")
 time.sleep(1)
 #------
 #right after the robot starts up, it has to "reset"
@@ -35,6 +36,11 @@ while True:
     print ("checking for input...")
     button = input('Select a number: ')
 #doop
+
+
+#wheatley is bae
+
+
 
 #------
 #when a button is pressed
