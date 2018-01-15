@@ -1,0 +1,44 @@
+Here is how to use github on your raspberry pi
+
+#####################################################
+#### Getting changes FROM GITHUB -> Raspberry Pi ####
+1. Start the Terminal App (If not already started)
+2. Change the folder to "wheatley-project" (If not already in folder)
+    Type [cd wheatley-project]  (note you can also type [cd wheat]+[tab] which will fill out the rest
+
+>3<. Pull the changes from github
+     git -pull
+
+This will update all files that have changed
+
+####################################################
+#### Saving changes FROM Raspberry Pi to GITHUB ####
+1. Start the Terminal App (If not already started)
+2. Change the folder to "wheatley-project" (If not already in folder)
+    Type [cd wheatley-project]  (note you can also type [cd wheat]+[tab] which will fill out the rest
+
+>3<. Make sure you have saved all files you want to change
+
+>4<  Check status
+       git status
+
+>4<. Add the changes
+       git add --all
+       git status    (Note this is to confirm that the changes are ready to be commited)
+
+>5<. Commit the changes
+       git commit
+       (Note: This will start nano where you need to add a message.  Type in the message then
+       press [ctrl-x] to save, and follow the prompts)
+
+       git status    (Again to check the status)
+
+>6<. Push changes to GITHUB
+       git push
+
+#####################################
+## Starting a new project ###
+1. Start the terminal (IMPORTANT, DO NOT DO THIS FROM INSIDE ANOTHER FOLDER)
+2. clone the project with
+    git clone (type in the full path from github and end in .git like this)
+       git clone  https://github.com/Mercythemermaid/wheatley-project.git     
